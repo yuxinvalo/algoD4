@@ -1,0 +1,30 @@
+tp4q2
+0
+3317812
+2015-10-29 22:39:48
+[0] 5
+median3 (custom cmp) at 5
+[0]  5 11
+median3 (custom cmp) at 9
+[0]  5  9 11
+median3 (custom cmp) at 9
+[0]  5 11  9 15
+median3 (custom cmp) at 5
+[0] 28 11 15  5  9
+median3 (custom cmp) at 28
+[0] 22 11  9  5 28 15
+median3 (custom cmp) at 5
+[0] 22 11  9 15 28  5 13
+median3 (custom cmp) at 22
+[0] 14 11  9 13 28  5 22 15
+median3 (custom cmp) at 14
+[0]  2 11  9 13 15  5 22 14 28
+median3 (custom cmp) at 6
+[0]  2 11  9 13 28  5 22 14  6 15
+median3 (custom cmp) at 5
+ [0]  2 11  9 13 28 15 22 14  6  5 41
+median3 (custom cmp) at 15
+ [0]  2 11  9 13 28 41 22 14  6  5 15 17
+median3 (custom cmp) at 22
+ [0]  2 11  9 13 28 41 17 14  6  5 15 22 36
+median3 (custom cmp) at 17
