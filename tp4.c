@@ -177,15 +177,15 @@ unsigned pivot_median3(const int* tab, unsigned l, unsigned r,
                        int (*cmp)(int a, int b))
 {
 	int middle = (l + r)/2;
-	if(cmp(tab[middle], tab[l]) <= 0 )
+	if(cmp(tab[middle], tab[l]) == -1 )
 		swap(&tab[l], &tab[middle]);
-	if(cmp(tab[r],tab[l]) <= 0)
-		swap(&tab[r], &tab[l]);
-	if(cmp(tab[r], tab[middle]) <= 0)
-		swap(&tab[r], &tab[middle]);
+	if(cmp(tab[r],tab[l]) == -1)
+		swap(&tab[l], &tab[r]);
+	if(cmp(tab[r], tab[middle]) == -1)
+		swap(&tab[middle], &tab[r]);
 
 	swap(&tab[middle], &tab[r - 1]);
-	return tab[r - 1];
+	return r-1;
 }
 
 //------------------pivot_first---------------------------------
